@@ -1,5 +1,7 @@
 ## Inception-V3 Model Description:
 
+![](https://raw.githubusercontent.com/Masterx-AI/Inception-V3_Implementation/main/4.jpeg)
+
 In a traditional neural network layer or convolutional neural network layer, the output from the previous layer is the input for the next layer and follows that pattern until the prediction. The basic idea of the inception network is the inception block. It takes apart the individual layers and instead of passing it through 1 layer it takes the previous layer input and passes it to four different operations in parallel and then concatenates the outlets from all these different layers. Below is the figure of the inception block. Don’t worry about the picture you saw below, we will get into the details of it.
 
 Let’s understand what is inception block and how it works. Google Net is made of 9 inception blocks. Before understanding inception blocks, I assume that you know about backpropagation concepts like scholastic gradient descent and CNN-related concepts like max-pooling, convolution, stride, and padding if not check out those concepts. Do note that, in the above image max-pooling is done using SAME pooling. you may get a doubt that what is SAME pooling? There are types of performing pooling like VALID pooling and SAME pooling.
